@@ -1,9 +1,8 @@
 {
-	"name": "next-plate",
-	"version": "1.2.0",
-	"private": true,
-	"author": "Gustavo Matheus <gustavo.morinaga27@gmail.com>",
-	"description": "A super template for Next.js with a pack of incredible tools",
+	"name": "superoba-web",
+	"version": "1.0.0",
+	"author": "Breno Gomes Haese <bghaesee@outlook.com>",
+	"description": "API + Web para o Super Atacado Oba",
 	"lint-staged": {
 		"src/**/*.+(js|jsx|ts|tsx|json)": [
 			"eslint --fix"

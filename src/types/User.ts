@@ -1,4 +1,4 @@
-export interface IUser {
+export type User = {
 	avatar_url: string;
 	bio: string;
 	followers: number;
@@ -9,4 +9,4 @@ export interface IUser {
 	name: string;
 	public_repos: number;
 	url: string;
-}
+};

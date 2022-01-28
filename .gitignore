@@ -36,3 +36,10 @@ yarn-error.log*
 # pwa
 public/*.js
 public/*.map
+
+# WebStorm files
+/.idea/
+
+# Package Lock
+/package-lock.json
+/yarn.lock

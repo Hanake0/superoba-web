@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic';
 import { NextSeo } from 'next-seo';
 
 // --- Interfaces ---
-import { IUser } from '@interfaces/IUser';
+import { User } from '../types/User';
 
 // --- Hooks ---
 import { useFetch } from '@hooks/useFetch';
@@ -29,7 +29,7 @@ const UserPage: NextPage = () => {
 
 	const constraintsRef = useRef(null);
 
-	const { data, error } = useFetch<IUser>(login ? `users/${login}` : null);
+	const { data, error } = useFetch<User>(login ? `users/${login}` : null);
 
 	return (
 		<>
